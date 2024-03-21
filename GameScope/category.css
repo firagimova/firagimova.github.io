@@ -1,0 +1,49 @@
+.table {
+    border-style: solid; /* Solid border style */
+    border-radius: 2px; /* Rounded border corners */
+}
+
+.list {
+    border-style: solid; /* Solid border style */
+    border-radius: 2px; /* Rounded border corners */
+    margin-right: 30px; /* Right margin */
+    width: 150px; /* Fixed width */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column direction */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.list ul {
+    margin: 0; /* Remove default margin */
+    padding-left: 35px; /* Left padding */
+    padding-right: 30px; /* Right padding */
+    text-align: center; /* Center text */
+}
+
+.list li {
+    margin-bottom: 20px; /* Bottom margin for list items */
+    margin-left: 10px; /* Left margin for list items */
+}
+
+.innerContent {
+    display: flex; /* Flex display */
+    justify-content: space-around; /* Distribute space evenly */
+}
+
+.content {
+    margin: 0 15%; /* Left and right margin */
+    text-align: center; /* Center text */
+    margin-top: 50px; /* Top margin */
+    margin-bottom: 50px; /* Bottom margin */
+}
+
+.imgs {
+    width: 200px; /* Fixed width */
+    border-style: solid; /* Solid border style */
+    border-radius: 1px; /* Rounded border corners */
+}
+
+.inText {
+    font-weight: bolder; /* Bold font weight */
+}

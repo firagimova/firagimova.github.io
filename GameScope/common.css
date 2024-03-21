@@ -1,0 +1,92 @@
+header {
+    padding: 5px 0px 5px 0px; /* Padding */
+    background-color: darkgrey; /* Background color */
+    align-items: center; /* Align items horizontally */
+}
+
+.ad1 {
+    height: 600px; /* Fixed height */
+    background-color: black; /* Background color */
+    width: 100%; /* Full width */
+}
+
+.ad1 img {
+    height: 600px; /* Fixed height */
+    width: 100%; /* Full width */
+}
+
+.ad2 {
+    height: 600px; /* Fixed height */
+    background-color: black; /* Background color */
+    width: 100%; /* Full width */
+}
+
+.ad2 img {
+    height: 600px; /* Fixed height */
+    width: 100%; /* Full width */
+}
+
+.content {
+    margin: 0 25%; /* Left and right margin */
+    text-align: center; /* Center text */
+    margin-top: 50px; /* Top margin */
+    margin-bottom: 50px; /* Bottom margin */
+}
+
+.name {
+    text-align: center; /* Center text */
+}
+
+.navBar {
+    display: flex; /* Flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-style: solid; /* Solid border style */
+    padding-top: 5px; /* Top padding */
+    padding-bottom: 5px; /* Bottom padding */
+}
+
+.home {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.categories {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.about {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.contact {
+    margin: 5px 50px 5px 50px; /* Margin */
+}
+
+.title {
+    margin-top: 30px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.text {
+    text-align: center; /* Center text */
+    margin-top: 40px; /* Top margin */
+}
+
+main {
+    display: flex; /* Flex display */
+    justify-content: space-between; /* Space between items */
+    margin: 30px 0px 30px 0px; /* Margin */
+}
+
+.socialPic {
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+}
+
+footer {
+    margin: 30px 0px 30px 0px; /* Margin */
+    padding: 10px 10px 20px 10px; /* Padding */
+    clear: both; /* Clear floating elements */
+    background-color: darkgray; /* Background color */
+    text-align: center; /* Center text */
+}
