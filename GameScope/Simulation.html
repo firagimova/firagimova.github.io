@@ -1,20 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
-<head>
+<head> <!-- Head section containing metadata and links to external resources -->
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
-    <title>GameScope</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="category.css"> <!-- Link to category-specific stylesheet -->
+    <title>Simulation</title> <!-- Title of the webpage -->
 
-    <link rel="stylesheet" href="jquery-ui.css">
     <link rel="stylesheet" href="superfish.css">
+    <link rel="stylesheet" href="jquery-ui.css">
     <script src="jquery.js"></script>
     <script src="jquery-ui.js"></script>
     <script src="dropDownMenu.js"></script>
-    
+    <script src="tooltip.js"></script>
 </head>
 
-<body>
-    <header> <!-- Header section -->
+<body> <!-- Body section of the webpage -->
+    <header> <!-- Header section containing website name and slogan -->
         <div class="name"> <!-- Division for website name and slogan -->
             <h1>GameScope</h1> <!-- Main heading of the website -->
             <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p> <!-- Slogan -->
@@ -38,66 +39,36 @@
         </ul>
     </div>
 
-    <main> <!-- Main content section -->
+    <main> <!-- Main content section of the webpage -->
         <div class="ad1"> <!-- Advertisement section 1 -->
             <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
         </div>
         <div class="content"> <!-- Content section -->
-            <h2 class="title">Contact</h2> <!-- Heading for contact -->
-            <div class="text"> <!-- Text section -->
-                <h4>Let us know if you want to check the game that you want.</h4>
+            <h2 class="title">Categories</h2> <!-- Heading for categories -->
+            <div class="innerContent"> <!-- Inner content division -->
+                <div class="list"> <!-- List of categories -->
+                    <ul>
+                        <li><a href="RolePlaying.html" class="inText">Role Playing</a></li> <!-- Link to Horror category -->
+                        <li><a href="Simulation.html" class="inText">Simulation</a></li> <!-- Link to Simulator category -->
+                        <li><a href="Horror.html" class="inText">Horror</a></li> <!-- Link to Arcade category -->
+                        <li><a href="Shooter.html" class="inText">Shooter</a></li> <!-- Link to Shooter category -->
+                </div>
+                <div class="table"> <!-- Table displaying category images -->
+                    <table>
+                        <tr>
+                            <td><a href="HouseFlipper.html" title="House Flipper"><img src="HFicon.jpg" alt="" class="imgs"></a></td> <!-- Image 1 -->
+                            <td><a href="TheSims.html" title="The Sims 4"><img src="TSicon.jpg" alt="" class="imgs"></a></td> <!-- Image 2 -->
+                            <td><a href="GoatSimulator.html" title="Goat Simulator"><img src="GSicon.jpg" alt="" class="imgs"></a></td> <!-- Image 3 -->
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <form id="contactForm">
-                <table>
-                    <tr>
-                        <td>Full Name: </td>
-                        <td>
-                            <input type="text" id="name">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Username*: </td>
-                        <td>
-                            <input type="text" id="username" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Email*: </td>
-                        <td>
-                            <input type="email" id="email" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>The GAME*: </td>
-                        <td>
-                            <input type="text" id="game" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Anything else? </td>
-                        <td>
-                            <textarea name="else" id="comment"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit">
-                        </td>
-                    </tr>
-                    <tr>
-                        <th> </th>
-                        
-                    </tr>
-                </table>
-            </form>
-            
         </div>
         <div class="ad2"> <!-- Advertisement section 2 -->
             <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
         </div>
     </main>
 
-    
     <footer> <!-- Footer section -->
         <div class="sponsor"> <!-- Sponsor section -->
             <h2>Spon</h2> <!-- Sponsor heading -->
@@ -110,7 +81,6 @@
             <a href=""><img src="youtube.png" alt="youtube" class="socialPic"></a> <!-- YouTube link -->
         </div>
     </footer>
-    <script src="contactForm.js"></script>
-</body>
 
+</body>
 </html>

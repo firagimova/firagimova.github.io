@@ -1,0 +1,36 @@
+.info{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.info p{
+    text-align: start;
+}
+
+.text article{
+    float: left;
+    clear: both;
+}
+
+.images{
+    
+    width: 100%;         /* Adjust width to fill the container it's in, or set a specific max-width if needed */
+    margin: 0 auto;      /* Center the slider */
+    padding: 20px 0;     /* Padding might be adjusted if it interferes with the display */
+    clear: both;         /* Clears the float, ensuring it doesn't affect elements around it */
+    box-sizing: border-box;
+    
+}
+
+.images img{
+    display: block;      /* Removes bottom space/gap */
+    width: 100%;         /* Ensures images scale properly */
+     padding: 10px 10px 10px 10px ;
+      
+}
+
+body{
+    overflow-x: hidden; 
+    max-width: 100%;  
+}
+

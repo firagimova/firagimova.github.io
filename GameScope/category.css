@@ -2,6 +2,10 @@
     border-style: solid; /* Solid border style */
     border-radius: 2px; /* Rounded border corners */
 }
+.table table tr td a img{
+    width: 200px;
+    height: 200px;
+}
 
 .list {
     border-style: solid; /* Solid border style */

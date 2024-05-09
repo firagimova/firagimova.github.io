@@ -4,6 +4,13 @@
 <head>
     <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
     <title>GameScope</title> <!-- Title of the webpage -->
+
+    <link rel="stylesheet" href="superfish.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="dropDownMenu.js"></script>
+    <script src="tooltip.js"></script>
 </head>
 
 <body>
@@ -16,18 +23,20 @@
 
 
     <div class="navBar"> <!-- Navigation bar section -->
-        <div class="home"> <!-- Home link -->
-            <a href="index.html">Home</a> <!-- Link to home page -->
-        </div>
-        <div class="categories"> <!-- Categories link -->
-            <a href="categories.html">Categories</a> <!-- Link to categories page -->
-        </div>
-        <div class="about"> <!-- About link -->
-            <a href="about.html">About</a> <!-- Link to about page -->
-        </div>
-        <div class="contact"> <!-- Contact link -->
-            <a href="contact.html">Contact</a> <!-- Link to contact page -->
-        </div>
+        <ul class="sf-menu">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="RolePlaying.html">Categories</a>
+                <ul>
+                    <li><a href="RolePlaying.html">Role Playing</a></li>
+                    <li><a href="Simulation.html">Simulation</a></li>
+                    <li><a href="Horror.html">Horror</a></li>
+                    <li><a href="Shooter.html">Shooter</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
 
     <main> <!-- Main content section of the webpage -->
@@ -35,7 +44,7 @@
             <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
         </div>
         <div class="content"> <!-- Content section -->
-            <h2 class="title">About Us</h2> <!-- Heading for about us -->
+            <h2 class="title" title="Get to Know Us">About Us</h2> <!-- Heading for about us -->
             <div class="text"> <!-- Text section -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolore itaque corporis! Eum eaque modi velit, maiores odio placeat magnam! 
                     Debitis quidem veritatis architecto, consectetur quia esse officia ut distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -57,7 +66,7 @@
             <p>something catchy</p> <!-- Sponsor description -->
         </div>
         <div class="social"> <!-- Social media links -->
-            <a href=""><img src="insta.png" alt="instagram" class="socialPic"></a> <!-- Instagram link -->
+            <a href=""><img src="insta.png" alt="instagram" class="socialPic" ></a> <!-- Instagram link -->
             <a href=""><img src="facebook.png" alt="facebook" class="socialPic"></a> <!-- Facebook link -->
             <a href=""><img src="x.jpg" alt="X" class="socialPic"></a> <!-- X link -->
             <a href=""><img src="youtube.png" alt="youtube" class="socialPic"></a> <!-- YouTube link -->

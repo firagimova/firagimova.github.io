@@ -46,20 +46,8 @@ header {
     padding-bottom: 5px; /* Bottom padding */
 }
 
-.home {
-    margin: 5px 50px 5px 50px; /* Margin */
-}
-
-.categories {
-    margin: 5px 50px 5px 50px; /* Margin */
-}
-
-.about {
-    margin: 5px 50px 5px 50px; /* Margin */
-}
-
-.contact {
-    margin: 5px 50px 5px 50px; /* Margin */
+.navBar ul li{
+    margin: 5px 5px 5px 5px; /* Margin */
 }
 
 .title {
