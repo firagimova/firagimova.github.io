@@ -1,0 +1,60 @@
+header {
+    padding: 5px 0px 5px 0px; /* Padding */
+    background-color: darkgrey; /* Background color */
+    align-items: center; /* Align items horizontally */
+}
+
+
+
+.content {
+    margin: 0 25%; /* Left and right margin */
+    text-align: center; /* Center text */
+    margin-top: 50px; /* Top margin */
+    margin-bottom: 50px; /* Bottom margin */
+}
+
+.name {
+    text-align: center; /* Center text */
+}
+
+.navBar {
+    display: flex; /* Flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border-style: solid; /* Solid border style */
+    padding-top: 5px; /* Top padding */
+    padding-bottom: 5px; /* Bottom padding */
+}
+
+.navBar ul li{
+    margin: 5px 5px 5px 5px; /* Margin */
+}
+
+.title {
+    margin-top: 30px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
+}
+
+.text {
+    text-align: center; /* Center text */
+    margin-top: 40px; /* Top margin */
+}
+
+main {
+    width: 70%; /* You can adjust this percentage */
+    margin: 50px auto; /* Top and bottom margin, auto left and right for centering */
+    text-align: center; /* Center text */
+}
+
+.socialPic {
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+}
+
+footer {
+    margin: 30px 0px 30px 0px; /* Margin */
+    padding: 10px 10px 20px 10px; /* Padding */
+    clear: both; /* Clear floating elements */
+    background-color: darkgray; /* Background color */
+    text-align: center; /* Center text */
+}

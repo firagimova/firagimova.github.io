@@ -9,21 +9,19 @@ https://muratterginn.github.io/GameScope/index.html
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
-    <link rel="stylesheet" href="infos.css"> <!-- Link to common stylesheet -->
+    <link rel="stylesheet" href="css/common.css"> <!-- Link to common stylesheet -->
+    <link rel="stylesheet" href="css/infos.css"> <!-- Link to common stylesheet -->
     <title>DOOM</title> <!-- Title of the webpage -->
 
-    <link rel="stylesheet" href="superfish.css">
-    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
     
-    <script src="jquery.js"></script>
-    <script src="jquery-ui.js"></script>
-    
-    <script src="dropDownMenu.js"></script>
-    
-    <script  src="lightBox.js"></script>
-    <script src="tooltip.js"></script>
-    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/dropDownMenu.js"></script>
+    <script src="js/lightBox.js"></script>
     
 </head>
 
@@ -31,7 +29,7 @@ https://muratterginn.github.io/GameScope/index.html
     <header> <!-- Header section -->
         <div class="name"> <!-- Division for website name and slogan -->
             <h1>GameScope</h1> <!-- Main heading of the website -->
-            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p> <!-- Slogan -->
+            <p><b>Explore, Connect, and Master Your Gaming Universe.</b></p> <!-- Slogan -->
         </div>
     </header>
 
@@ -53,9 +51,7 @@ https://muratterginn.github.io/GameScope/index.html
     </div>
 
     <main> <!-- Main content section -->
-        <div class="ad1"> <!-- Advertisement section 1 -->
-            <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
-        </div>
+        
         <div class="content"> <!-- Content section -->
             <h2 class="title">DOOM</h2> <!-- Heading for home -->
             <div class="text"> <!-- Text section -->
@@ -79,30 +75,30 @@ https://muratterginn.github.io/GameScope/index.html
                     the gaming community, influencing countless other games in the shooter genre.
                 </article>
             </div>
-            <div class="images">
-                <div>
-                    <a href="Dicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
-                        <img src="Dicon.jpg" alt="icon">
+            <div id="tabs">
+				<ul>
+					<li><a href="#tab1">Photo 1</a></li>
+                    <li><a href="#tab2">Photo 2</a></li>
+                    <li><a href="#tab3">Photo 3</a></li>
+				</ul>
+				<div id="tab1">
+                    <a href="images/Dicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
+                        <img src="images/Dicon.jpg" alt="icon">
                     </a>
-                </div>
-                <div>
-                    <a href="Dp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
-                        <img src="Dp1.jpg" alt="picture1">
+				</div>
+                <div id="tab2">
+                    <a href="images/Dp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
+                        <img src="images/Dp1.jpg" alt="picture1">
                     </a>
-                </div>
-                <div>
-                    <a href="Dp2.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
-                        <img src="Dp2.jpg" alt="picture2">
+				</div>
+                <div id="tab3">
+                    <a href="images/Dp2.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
+                        <img src="images/Dp2.jpg" alt="picture2">
                     </a>
-                </div>
-
-
-
+				</div>
             </div>
         </div>
-        <div class="ad2"> <!-- Advertisement section 2 -->
-            <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
-        </div>
+        
     </main>
 
     <footer> <!-- Footer section -->

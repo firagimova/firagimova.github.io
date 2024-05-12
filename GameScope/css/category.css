@@ -1,0 +1,57 @@
+.table {
+    border-style: solid; /* Solid border style */
+    border-radius: 2px; /* Rounded border corners */
+}
+.table table tr td a img{
+    width: 200px;
+    height: 200px;
+}
+
+.list {
+    border-style: solid; /* Solid border style */
+    border-radius: 2px; /* Rounded border corners */
+    margin-right: 30px; /* Right margin */
+    width: 150px; /* Fixed width */
+    display: flex; /* Flex display */
+    flex-direction: column; /* Column direction */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.list ul {
+    margin: 0; /* Remove default margin */
+    padding-left: 35px; /* Left padding */
+    padding-right: 30px; /* Right padding */
+    text-align: center; /* Center text */
+}
+
+.list li {
+    margin-bottom: 20px; /* Bottom margin for list items */
+    margin-left: 10px; /* Left margin for list items */
+}
+
+.innerContent {
+    display: flex; /* Flex display */
+    justify-content: space-around; /* Distribute space evenly */
+    
+}
+
+.content {
+    width: 70%; /* You can adjust this percentage */
+    margin: 50px auto; /* Top and bottom margin, auto left and right for centering */
+    text-align: center; /* Center text */
+}
+
+.imgs {
+    width: 200px; /* Fixed width */
+    border-style: solid; /* Solid border style */
+    border-radius: 1px; /* Rounded border corners */
+}
+
+.inText {
+    font-weight: bolder; /* Bold font weight */
+}
+
+.title{
+    padding-bottom: 50px;
+}

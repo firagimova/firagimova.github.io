@@ -9,24 +9,26 @@ https://muratterginn.github.io/GameScope/index.html
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="common.css"> <!-- Link to common stylesheet -->
-    <link rel="stylesheet" href="infos.css"> <!-- Link to common stylesheet -->
-    <title>Dead by Daylight</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="css/common.css"> <!-- Link to common stylesheet -->
+    <link rel="stylesheet" href="css/infos.css"> <!-- Link to common stylesheet -->
+    <title>Dead by Deadlight</title> <!-- Title of the webpage -->
 
-    <link rel="stylesheet" href="superfish.css">
-    
-    <link rel="stylesheet" href="lightBox.js">
-    <script src="jquery.js"></script>
-    
+    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
 
-    <script src="dropDownMenu.js"></script>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/dropDownMenu.js"></script>
+    <script src="js/lightBox.js"></script>
 </head>
 
 <body>
     <header> <!-- Header section -->
         <div class="name"> <!-- Division for website name and slogan -->
             <h1>GameScope</h1> <!-- Main heading of the website -->
-            <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b></p> <!-- Slogan -->
+            <p><b>Explore, Connect, and Master Your Gaming Universe.</b></p> <!-- Slogan -->
         </div>
     </header>
 
@@ -48,9 +50,7 @@ https://muratterginn.github.io/GameScope/index.html
     </div>
 
     <main> <!-- Main content section -->
-        <div class="ad1"> <!-- Advertisement section 1 -->
-            <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
-        </div>
+        
         <div class="content"> <!-- Content section -->
             <h2 class="title">Dead by Daylight</h2> <!-- Heading for home -->
             <div class="text"> <!-- Text section -->
@@ -76,21 +76,31 @@ https://muratterginn.github.io/GameScope/index.html
                     competitive play among users.
                 </article>
             </div>
-            <div class="images">
-                <a href="DbDicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
-                    <img src="DbDicon.jpg" alt="icon">
-                </a>
-                <a href="DbDp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
-                    <img src="DbDp1.jpg" alt="picture1">
-                </a>
-                <a href="DbDp2.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
-                    <img src="DbDp2.jpg" alt="picture2">
-                </a>
-            </div>
+            <div id="tabs">
+				<ul>
+					<li><a href="#tab1">Photo 1</a></li>
+                    <li><a href="#tab2">Photo 2</a></li>
+                    <li><a href="#tab3">Photo 3</a></li>
+				</ul>
+				<div id="tab1">
+                    <a href="images/DbDicon.jpg" target="_blank" data-lightbox="light-box" data-title="House Flipper Icon">
+                        <img src="images/DbDicon.jpg" alt="icon">
+                    </a>
+				</div>
+                <div id="tab2">
+                    <a href="images/DbDp1.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 1">
+                        <img src="images/DbDp1.jpg" alt="picture1">
+                    </a>
+				</div>
+                <div id="tab3">
+                    <a href="images/DbDp2.jpg" target="_blank" data-lightbox="light-box" data-title="Screenshot 2">
+                        <img src="images/DbDp2.jpg" alt="picture2">
+                    </a>
+				</div>
+	
+			</div>
         </div>
-        <div class="ad2"> <!-- Advertisement section 2 -->
-            <a href=""><img src="ad.png"></a> <!-- Advertisement image with link -->
-        </div>
+        
     </main>
 
     <footer> <!-- Footer section -->
