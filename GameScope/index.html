@@ -12,9 +12,15 @@ https://muratterginn.github.io/GameScope/index.html
     <link rel="stylesheet" href="css/common.css"> <!-- Link to common stylesheet -->
 
     <title>GameScope</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/superfish.css">
-    <script src="jquery.js"></script>
-    <script src="dropDownMenu.js"></script>
+    <link rel="stylesheet" href="css/games.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/dropDownMenu.js"></script>
+    <script src="js/dialog.js"></script>
+    <script src="js/ajaxOnline.js"></script>
+    
 </head>
 
 <body>
@@ -45,7 +51,7 @@ https://muratterginn.github.io/GameScope/index.html
     <main> <!-- Main content section -->
 
         <div class="content"> <!-- Content section -->
-            <h2 class="title">Home</h2> <!-- Heading for home -->
+            <h1 class="title">Home</h1> <!-- Heading for home -->
             <div class="text"> <!-- Text section -->
                 <article><!-- Article containing text -->
                     Welcome to GameScope, the premier destination for all things gaming. Whether you're searching for
@@ -56,15 +62,19 @@ https://muratterginn.github.io/GameScope/index.html
                     the continuous innovation that drives it. Discover, learn, and grow with us as we explore every
                     corner of the gaming universe.
                 </article>
+                <br>
             </div>
+
+            <h2 style="color: red;">Popular Games</h2>
+            <div id="games"></div>
+        </div>
         </div>
 
     </main>
 
     <footer> <!-- Footer section -->
         <div class="sponsor"> <!-- Sponsor section -->
-            <h2>Spon</h2> <!-- Sponsor heading -->
-            <p>something catchy</p> <!-- Sponsor description -->
+            <h3 id="pop">Click me to contact</h3> 
         </div>
         <div class="social"> <!-- Social media links -->
             <a href=""><img src="insta.png" alt="instagram" class="socialPic"></a> <!-- Instagram link -->
@@ -73,6 +83,10 @@ https://muratterginn.github.io/GameScope/index.html
             <a href=""><img src="youtube.png" alt="youtube" class="socialPic"></a> <!-- YouTube link -->
         </div>
     </footer>
+
+    <div id="dialog" title="Contact GameScope">
+        <a href="contact.html">Way to contact us</a>
+    </div>
 
 </body>
 

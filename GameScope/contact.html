@@ -10,6 +10,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/dropDownMenu.js"></script>
+    <script src="js/dialog.js"></script>
 
 </head>
 
@@ -41,7 +42,7 @@
     <main> <!-- Main content section -->
 
         <div class="content"> <!-- Content section -->
-            <h2 class="title">Contact</h2> <!-- Heading for contact -->
+            <h1 class="title">Contact</h1> <!-- Heading for contact -->
             <div class="text"> <!-- Text section -->
                 <article>Have questions, suggestions, or want to join the GameScope community? Reach out to us! We're
                     always eager to connect with fellow gamers. Whether it's feedback on our articles or inquiries about
@@ -101,8 +102,7 @@
 
     <footer> <!-- Footer section -->
         <div class="sponsor"> <!-- Sponsor section -->
-            <h2>Spon</h2> <!-- Sponsor heading -->
-            <p>something catchy</p> <!-- Sponsor description -->
+            <h3 id="pop">Click me to contact</h3> 
         </div>
         <div class="social"> <!-- Social media links -->
             <a href=""><img src="insta.png" alt="instagram" class="socialPic"></a> <!-- Instagram link -->
@@ -111,6 +111,11 @@
             <a href=""><img src="youtube.png" alt="youtube" class="socialPic"></a> <!-- YouTube link -->
         </div>
     </footer>
+
+    <div id="dialog" title="Contact GameScope">
+        <a href="contact.html">Way to contact us</a>
+    </div>
+
     <script src="contactForm.js"></script>
 </body>
 

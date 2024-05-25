@@ -11,6 +11,7 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/dropDownMenu.js"></script>
     <script src="js/tooltip.js"></script>
+    <script src="js/dialog.js"></script>
 </head>
 
 <body>
@@ -42,7 +43,7 @@
     <main> <!-- Main content section of the webpage -->
 
         <div class="content"> <!-- Content section -->
-            <h2 class="title" title="Get to Know Us">About Us</h2> <!-- Heading for about us -->
+            <h1 class="title" title="Get to Know Us">About Us</h1> <!-- Heading for about us -->
             <div class="text"> <!-- Text section -->
                 <p>GameScope is more than just a gaming website; it's a community built by gamers, for gamers. Founded
                     by passionate gamers, our mission is to provide thorough, unbiased game reviews and the latest
@@ -57,8 +58,7 @@
 
     <footer> <!-- Footer section -->
         <div class="sponsor"> <!-- Sponsor section -->
-            <h2>Spon</h2> <!-- Sponsor heading -->
-            <p>something catchy</p> <!-- Sponsor description -->
+            <h3 id="pop">Click me to contact</h3> 
         </div>
         <div class="social"> <!-- Social media links -->
             <a href=""><img src="insta.png" alt="instagram" class="socialPic"></a> <!-- Instagram link -->
@@ -67,6 +67,10 @@
             <a href=""><img src="youtube.png" alt="youtube" class="socialPic"></a> <!-- YouTube link -->
         </div>
     </footer>
+
+    <div id="dialog" title="Contact GameScope">
+        <a href="contact.html">Way to contact us</a>
+    </div>
 </body>
 
 </html>
