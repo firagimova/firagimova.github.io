@@ -1,0 +1,17 @@
+{"games":[
+	{
+		"link": "HouseFlipper.html",
+		"title": "HouseFlipper",
+		"image": "images/HFicon.jpg"
+	},
+    {
+		"link": "TheSims.html",
+		"title": "The Sims 4",
+		"image": "images/TSicon.jpg"
+    },
+    {
+		"link": "GoatSimulator.html",
+		"title": "Goat Simulator",
+		"image": "images/GSicon.jpg"
+    }
+]}

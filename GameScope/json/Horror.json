@@ -1,0 +1,17 @@
+{"games":[
+	{
+		"link": "LayersOfFear.html",
+		"title": "Layers of Fear",
+		"image": "images/LOFicon.jpg"
+	},
+    {
+		"link": "DyingLight.html",
+		"title": "Dying Light",
+		"image": "images/DLicon.jpg"
+    },
+    {
+		"link": "DeadbyDaylight.html",
+		"title": "Dead by Daylight",
+		"image": "images/DbDicon.jpg"
+    }
+]}

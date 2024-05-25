@@ -1,0 +1,17 @@
+{"games":[
+	{
+		"link": "DarkestDungeon.html",
+		"title": "Darkest Dungeon",
+		"image": "images/DDicon.jpg"
+	},
+    {
+		"link": "Diablo.html",
+		"title": "Diablo 4",
+		"image": "images/DIicon.jpg"
+    },
+    {
+		"link": "Fallout.html",
+		"title": "Fallout 76",
+		"image": "images/Ficon.jpg"
+    }
+]}
